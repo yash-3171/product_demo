@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+}
+.bigbox{
+
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 1000px;
+    width:98vw;
+    margin-top: 0px;
+    background-color:rgb(169, 158, 232);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.product{
+    height: 35%;
+    width: 23%;
+    text-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color:gold;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 15px 15px 5px black;
+
+}
+button{
+    color: whitesmoke;
+    margin-bottom: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+}
+button:hover{
+    transform: scale(1.05);
+    padding:5px;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    transform: scale(1.03);
+    
+}
+@media screen and (min-width:200px) {
+    
+    
+}
